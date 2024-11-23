@@ -1,0 +1,46 @@
+{
+  "name": "enroll-ug",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles",
+    "start": "nodemon app.js"
+  },
+  "author": "github.com/steampunk99 (Bonnie Lukwiya)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fluidjs/multer-cloudinary": "^1.0.4",
+    "algoliasearch": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "connect-mongo": "^5.1.0",
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "mongoose-paginate-v2": "^1.8.5",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.0.0",
+    "supertest": "^7.0.0"
+  }
+}
