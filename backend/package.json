@@ -4,7 +4,13 @@
   "main": "app.js",
   "scripts": {
     "test": "jest --runInBand --detectOpenHandles",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "build": "npm install",
+    "start:prod": "NODE_ENV=production node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "clean": "rm -rf node_modules && npm install"
   },
   "author": "github.com/steampunk99 (Bonnie Lukwiya)",
   "license": "ISC",
